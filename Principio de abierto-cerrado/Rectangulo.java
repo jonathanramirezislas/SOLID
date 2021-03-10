@@ -1,4 +1,4 @@
-public class Rectangulo {
+public class Rectangulo implements Forma {
 
     private double x;
     private double y;
@@ -13,12 +13,14 @@ public class Rectangulo {
         this.alto = alto;
     }
 
-    public double calcularAreaRectangulo() {
 
+    @Override
+    public double calcularArea() {
         return alto * ancho;
     }
 
-    public double calcularPerimetroRectángulo() {
+    @Override
+    public double calcularPerimetro() {
         return 2 * alto + 2 * ancho;
     }
 }
