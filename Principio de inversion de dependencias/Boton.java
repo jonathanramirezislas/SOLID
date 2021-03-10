@@ -1,16 +1,16 @@
 public class Boton {
 
-    private Lampara lampara;
+    private Accionable accionable;
 
-    public Boton(Lampara lampara) {
-        this.lampara = lampara;
+    public Boton(Accionable accionable) {
+        this.accionablePorBoton = accionable;
     }
 
     public void pulsar() {
         if (condicion) {
-            lampara.encender();
+            accionable.encender();
         } else {
-            lampara.apagar();
+            accionable.apagar();
         }
     }
 }
