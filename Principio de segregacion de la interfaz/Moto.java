@@ -1,4 +1,4 @@
-public class Moto implements Vehiculo {
+public class Moto implements Vehiculo, Energia {
     @Override
     public void encenderMotor() {
 
@@ -25,7 +25,7 @@ public class Moto implements Vehiculo {
     }
 
     @Override
-    public void llenarDeposito() {
+    public void recargar() {
 
     }
 }

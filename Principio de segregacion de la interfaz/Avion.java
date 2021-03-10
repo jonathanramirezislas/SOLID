@@ -1,4 +1,4 @@
-public class Coche implements Vehiculo, Energia {
+public class Avion implements Vehiculo,Energia, Volador {
     @Override
     public void encenderMotor() {
 
@@ -28,4 +28,15 @@ public class Coche implements Vehiculo, Energia {
     public void recargar() {
 
     }
+    @Override
+    public void despegar() {
+
+    }
+
+    @Override
+    public void aterrizar() {
+
+    }
+
+
 }
