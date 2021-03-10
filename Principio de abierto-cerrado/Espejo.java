@@ -3,9 +3,6 @@ public class Espejo {
     private static final double PRECIO_M2_MATERIAL_ESPEJO = 721;
     Forma forma;
 
-    private Rectangulo rectangulo;
-    private Circulo circulo;
-
     private Material materialMarco;
 
     public Espejo(Forma forma, Material materialMarco) {
